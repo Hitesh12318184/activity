@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:darkcyan;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    color: plum;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: bisque;
+    color: teal;
+    padding: 10px;
+    margin-top: 20px;
+}
+    </style>
+    <header>
+        <h1>Welcome to Your Website Task</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="About CSS">
+        <h2>About CSS</h2>
+        <p>Cascading Style Sheets (css) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+    </section>
+
+    <section id="Box Model">
+        <h2>Box Model</h2>
+        <p>The CSS box describes the rectangular boxes generated for elements. it includes margins, borders, padding, and the actual content. </p>
+    </section>
+
+    <section id="contact">
+        <h2>Responsive Design</h2>
+        <p>Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+    </section>
+
+    <footer>
+        <p>Created by [Hitesh Kumar] | Follow us on <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
